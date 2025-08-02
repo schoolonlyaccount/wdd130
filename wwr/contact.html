@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <!-- Basics -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Water Rafting | Contact Us | WDD130</title>
+    <meta name="description" content="White Water Rafting contact us page">
+    <meta name="author" content="Kell Brine">
+
+    <!-- Link to Styles -->
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <!-- Add 2 Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/wwr-logo.png" alt="Image of Rafting Company Logo">
+        <nav class="otherpages">
+            <a href="index.html">Home Page</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <div class="contact-information">
+                <p>Address: Kayak Point, Grapevine, TX 76051</p>
+                <p>Phone: 422-422-4242</p>
+                <p>Email: <a href="mailto:">whitewaterrafting@gmail.com</a></p>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107099.45733989404!2d-97.06519290000001!3d32.9811469!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2c90b0ba0465%3A0xd378ecbd743fc5d8!2sLonestar%20Adventure%20Sports!5e0!3m2!1sen!2sus!4v1754159514474!5m2!1sen!2sus"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <div class="happy-employees">
+            <figure>
+                <img src="images/employee-1.jpg" alt="Happy Employee #1">
+                <figcaption>Hank, the one that's the boss</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-2.jpg" alt="Happy Employee #2">
+                <figcaption>Casey, the one in charge of safety</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-3.jpg" alt="Happy Employee #3">
+                <figcaption>Bob, the one who just works here</figcaption>
+            </figure>
+        </div>
+        <form action="#" method="post">
+            <div class="name-and-email">
+                <p>- Contact Information -</p>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="purpose-of-message">
+                <p>- Purpose of Your Message -</p>
+                <label>
+                    <input type="radio" name="purpose" value="general" required>
+                    General Inquiry
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="reservation">
+                    Reservation Question
+                </label>
+                <label>
+                    <input type="radio" name="purpose" value="suggestion">
+                    Website Suggestion
+                </label>
+            </div>
+            <div class="your-message">
+                <p>- Your Message -</p>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="subscribe">
+                    Please subscribe me to the monthly newsletter
+                </label>
+            </div>
+
+            <button type="submit">Send My Message</button>
+        </form>
+    </main>
+    <footer>
+        <a href="images/contact-us-wireframe.png" target="_blank">View Contact Page Wireframe</a>
+        <p>©2025 | White Water Rafting | Kell Brine</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-icon.png" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x-icon.png" alt="X">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-icon.png" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
